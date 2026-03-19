@@ -25,6 +25,7 @@ export default defineConfig([
     },
     rules: {
       "no-relative-import-paths/no-relative-import-paths": "error",
+      "react-refresh/only-export-components": "off",
     },
   },
 ])
